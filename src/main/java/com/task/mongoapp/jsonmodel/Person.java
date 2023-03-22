@@ -19,8 +19,8 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Person {//change String in date to format dd.mm.yyyy
 
-    @Id
-    private  String id;
+   // @Id
+  //  private  String id;
 
     @JsonProperty("type_of_official")
     private String typeOfOfficial;
